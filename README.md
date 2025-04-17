@@ -18,6 +18,7 @@ To run the script correctly, you need to install the following tools and package
 - [Npcap](https://npcap.com/) (Windows only)
 - pip
 
+
 ## 📦 Install dependencies
 
 First, install the required packages using pip:
@@ -40,6 +41,12 @@ pyfiglet
 If you are using Windows, you must first download and install Npcap. It is recommended to enable the "Install Npcap in WinPcap API-compatible Mode" option during installation.
 
 ## ⚙️ How to run
+
+Clone the repository:
+
+```bash
+[https://github.com/moeinnrz/Smart_Parking_Detection-.git](https://github.com/moeinnrz/DHCP_Starvation_Attack_DHCBreaker.git)
+```
 📌 Windows
 
 1- Make sure Npcap is installed.
@@ -64,3 +71,19 @@ sudo pip install -r requirements.txt
 ```bash
 sudo python3 dhcp_starvation.py
 ```
+
+## ✨ Script Features
+
+Display a beautiful graphic banner with pyfiglet
+
+List of available network cards
+
+Select a network card of your choice
+
+Send DHCP Discover with a random MAC and hostname
+
+Receive DHCP Offer and send DHCP Request to confirm IP
+
+## ⚠️ Warning
+
+This script is written for training and testing purposes only in laboratory or controlled environments. Using it on public networks or without the consent of the network administrator is illegal and has serious consequences.
